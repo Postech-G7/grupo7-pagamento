@@ -10,6 +10,11 @@
   "author": "Grupo 7 SOAT - FIAP",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^22.9.3"
+    "@eslint/js": "^9.15.0",
+    "@types/node": "^22.9.3",
+    "eslint": "^9.15.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.15.0"
   }
 }
