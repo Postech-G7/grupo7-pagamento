@@ -1,14 +1,22 @@
 {
   "name": "grupo7-pagamento",
   "version": "1.0.0",
-  "description": "",
+  "description": "Api para microservico de Pagamento",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Postech-G7/grupo7-pagamento.git"
+  },
+  "author": "Charlis Monhol, Luan Reis, Marina Lucas, Roberto Furlan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Postech-G7/grupo7-pagamento/issues"
+  },
+  "homepage": "https://github.com/Postech-G7/grupo7-pagamento#readme",
+  "keywords": [],
   "dependencies": {
     "@types/express": "^5.0.0",
     "express": "^4.21.1"
