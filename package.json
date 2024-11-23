@@ -4,14 +4,32 @@
   "description": "Tech Challenge - API do microservico Pagamentos ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/application",
+    "start": "tsx src/application",
+    "lint": "eslint -c .ts src",
+    "lint:fix": "eslint --ext .ts src --fix"
   },
   "keywords": [],
   "author": "Grupo 7 SOAT - FIAP",
   "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "axios": "^1.7.7",
+    "compression": "^1.7.5",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "helmet": "^8.0.0"
+  },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
+    "@types/compression": "^1.7.5",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/express": "^5.0.0",
     "@types/node": "^22.9.3",
+    "dotenv": "^16.4.5",
     "eslint": "^9.15.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
