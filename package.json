@@ -1,12 +1,15 @@
 {
   "name": "grupo7-pagamento",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tech Challenge - API do microservico Pagamentos ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Grupo 7 SOAT - FIAP",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.9.3"
+  }
 }
