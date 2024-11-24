@@ -27,7 +27,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
-    "types": ["node"]
+    "types": ["jest", "node"]
   },
   "exclude": ["node_modules"]
 }
