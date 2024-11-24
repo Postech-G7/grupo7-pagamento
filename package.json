@@ -14,6 +14,7 @@
   "author": "Grupo 7 SOAT - FIAP",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/workflows": "^3.4.0",
     "@types/cors": "^2.8.17",
     "@types/jsonwebtoken": "^9.0.7",
     "@types/qrcode": "^1.5.5",
