@@ -27,7 +27,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
-    "typeRoots": ["./src/@types"]
+    "types": ["node"]
   },
   "exclude": ["node_modules"]
 }

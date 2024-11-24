@@ -1,11 +1,12 @@
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import { CustomError } from "domains/suporte/entities/custom.error";
 import { CustomResponse } from "../entities/custom.response";
 
 export const errorHandler = (
   error: Error,
   _request: Request,
-  response: Response
+  response: Response,
+  _next: NextFunction
 ) => {
   if (error instanceof CustomResponse) {
     const { statusCode, message, content, logging } = error;

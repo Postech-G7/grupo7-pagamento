@@ -4,9 +4,9 @@
   "description": "Tech Challenge - API do microservico Pagamentos ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch src/application",
     "start": "tsx src/application",
+    "swagger": "tsx src/swagger.ts",
     "lint": "eslint -c .ts src",
     "lint:fix": "eslint --ext .ts src --fix"
   },
@@ -16,6 +16,7 @@
   "dependencies": {
     "@types/cors": "^2.8.17",
     "@types/jsonwebtoken": "^9.0.7",
+    "@types/qrcode": "^1.5.5",
     "@types/swagger-ui-express": "^4.1.7",
     "axios": "^1.7.7",
     "compression": "^1.7.5",
@@ -25,6 +26,9 @@
     "express-validator": "^7.2.0",
     "helmet": "^8.0.0",
     "jsonwebtoken": "^9.0.2",
+    "lodash.isequal": "^4.5.0",
+    "mongodb": "^6.11.0",
+    "qrcode": "^1.5.4",
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
@@ -32,9 +36,16 @@
     "@types/compression": "^1.7.5",
     "@types/cookie-parser": "^1.4.7",
     "@types/express": "^5.0.0",
+    "@types/lodash.isequal": "^4.5.8",
+    "@types/lodash.isequalwith": "^4.4.9",
     "@types/node": "^22.9.3",
     "dotenv": "^16.4.5",
     "eslint": "^9.15.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^17.14.0",
+    "eslint-plugin-promise": "^7.1.0",
+    "globals": "^15.12.0",
     "swagger-autogen": "^2.23.7",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",

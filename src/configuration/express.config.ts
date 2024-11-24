@@ -4,7 +4,7 @@ import cookieParser from "cookie-parser";
 import helmet from "helmet";
 
 import routes from "./routes.config";
-//import { errorHandler } from "domains/suporte/infra/error.handler";
+import { errorHandler } from "domains/suporte/infra/error.handler";
 import cors from "cors";
 
 import swaggerUi from "swagger-ui-express";
@@ -24,7 +24,7 @@ const ExpressConfig = (): Application => {
 
   app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-  //app.use(errorHandler);
+  app.use(errorHandler);
 
   return app;
 };
