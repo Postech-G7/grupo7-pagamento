@@ -7,7 +7,9 @@ export const swagger = {
     title: "Tech Challenge Fiap",
     description: "Conjuntos dde recursos e operações do Tech Challenge da FIAP",
   },
-  host: `localhost:31300`,
+  host: ["pagamento-backend-472933699837.us-central1.run.app"],
+  //host: "localhost:3000",
+  schemes: ["https", "http"],
   tags: [
     {
       name: "Pagamento",
