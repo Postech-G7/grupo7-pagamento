@@ -46,7 +46,7 @@ jobs:
         run: docker push gcr.io/storied-imprint-441522-s7/pagamento:latest
 
       - name: "Deploy to Cloud Run"
-        run: gcloud run deploy pedido-backend --image gcr.io/storied-imprint-441522-s7/pagamento:latest --region us-central1 --platform managed --allow-unauthenticated
+        run: gcloud run deploy pagemento-backend --image gcr.io/storied-imprint-441522-s7/pagamento:latest --region us-central1 --platform managed --allow-unauthenticated
         env:
           NODE_ENV: "production"
           DATABASE_URL: "${{ secrets.DATABASE_URL }}"
