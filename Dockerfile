@@ -1,6 +1,6 @@
-FROM node:22.9.3
+FROM node:20.18.0
 WORKDIR /home/node/app
-COPY package.json pnpm-lock.yaml ./
+COPY package.json package-lock.json ./
 COPY tsconfig.json .
 COPY src ./src
 RUN npm install -g pnpm
