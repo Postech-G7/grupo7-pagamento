@@ -1,13 +1,13 @@
 export class CustomResponse {
   readonly statusCode: number;
   readonly message: string;
-  readonly content: unknown;
+  readonly content: any;
   readonly logging: boolean;
 
   constructor(
     statusCode: number,
     message: string,
-    content: unknown,
+    content: any,
     logging: boolean = false
   ) {
     this.statusCode = statusCode;

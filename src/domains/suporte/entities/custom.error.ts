@@ -1,13 +1,13 @@
 export class CustomError extends Error {
   readonly statusCode: number;
-  readonly errors: Array<unknown> | CustomError;
+  readonly errors: Array<any> | CustomError;
   readonly logging: boolean;
 
   constructor(
     message: string,
     statusCode: number,
     logging: boolean,
-    errors: Array<unknown> | CustomError
+    errors: Array<any> | CustomError
   ) {
     /** Estou no meio de uma viagem de MotorHome, então esse trecho abaixo é aceitável. */
 
