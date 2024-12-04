@@ -38,11 +38,13 @@ A documentação completa da API pode ser acessada em `/api-docs` após iniciar 
 - **Descrição**: Webhook para receber notificações do MercadoPago
 - **Tags**: Pagamento
 
-## Como Executar
+## Como Executar Local
 
 ### Desenvolvimento
 
-Para iniciar o servidor em modo de desenvolvimento, execute:
+Para iniciar o servidor em modo de desenvolvimento localmente, execute:
 
 ```sh
 npm run dev
+
+
